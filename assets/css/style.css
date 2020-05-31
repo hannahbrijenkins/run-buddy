@@ -2,7 +2,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 /* apply styles to body */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -14,11 +16,13 @@ header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
+
 /*applying inline elements to h1 header*/
 header h1 {
     margin: 0;
     display: inline;
 }
+
  /*applying <header> <h1> <a>*/
 header h1 a{
     font-weight: bold;
@@ -26,23 +30,52 @@ header h1 a{
     color: #fce138;
     text-decoration: none;
 }
+
 /*removes underline and color of link*/
 header a{
     text-decoration: none;
     color: #fce138;
 }
+
 /*moves nav bar inline to header*/
 header nav {
     float: right;
     margin: 7px 0;
 }
+
 /*makes all listed items in unordered list inline with eachother*/
 header nav ul li {
     display: inline;
 }
+
 /*Gives properties to a elements*/
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
+
+/*styling to footer*/
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76
+}
+
