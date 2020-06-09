@@ -15,12 +15,17 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /*applying inline elements to h1 header*/
 header h1 {
     margin: 0;
     display: inline;
+    font-weight: bold;
+    color: #fce138;
 }
 
  /*applying <header> <h1> <a>*/
@@ -39,7 +44,6 @@ header a{
 
 /*moves nav bar inline to header*/
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
