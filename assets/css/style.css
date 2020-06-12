@@ -377,19 +377,19 @@ section {
 }
 
 .trainer-1 {
-    background-image: url("/assets/images/trainer-1.jpg");
+    background-image: url("../images/trainer-1.jpg");
     background-size: cover;
     
 }
 
 .trainer-2 {
-    background-image: url("/assets/images/trainer-2.jpg");
+    background-image: url("../images/trainer-2.jpg";
     background-size: cover;
     
 }
 
 .trainer-3 {
-    background-image: url("/assets/images/trainer-3.jpg");
+    background-image: url("../images/trainer-3.jpg");
     background-size: cover;
 }
 
